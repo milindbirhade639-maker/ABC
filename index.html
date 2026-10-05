@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cloud Computing Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>☁ Cloud Computing</h1>
+        <p>Simple Cloud Information Web Application</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#models">Models</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Cloud Computing</h2>
+
+        <p>
+            Cloud computing provides computing resources such as
+            storage, servers, databases and applications through the Internet.
+        </p>
+
+        <button onclick="showMessage()">Learn More</button>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- Cloud Services -->
+    <section id="services">
+        <h2>Cloud Service Models</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>IaaS</h3>
+                <p>
+                    Infrastructure as a Service provides virtual
+                    machines, storage and networking resources.
+                </p>
+                <button onclick="showService('IaaS')">
+                    View Details
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>PaaS</h3>
+                <p>
+                    Platform as a Service provides a platform for
+                    developing and deploying applications.
+                </p>
+                <button onclick="showService('PaaS')">
+                    View Details
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>SaaS</h3>
+                <p>
+                    Software as a Service provides software applications
+                    through the Internet.
+                </p>
+                <button onclick="showService('SaaS')">
+                    View Details
+                </button>
+            </div>
+
+        </div>
+
+        <p id="serviceMessage"></p>
+    </section>
+
+    <!-- Deployment Models -->
+    <section id="models">
+        <h2>Cloud Deployment Models</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>Public Cloud</h3>
+                <p>
+                    Cloud resources are provided to the public through
+                    the Internet.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Private Cloud</h3>
+                <p>
+                    Cloud infrastructure is dedicated to a single
+                    organization.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Hybrid Cloud</h3>
+                <p>
+                    Combination of public cloud and private cloud.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Community Cloud</h3>
+                <p>
+                    Cloud infrastructure shared by organizations
+                    having common requirements.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Cloud Computing</h2>
+
+        <p>
+            Cloud computing allows users to access computing resources
+            whenever required without maintaining all the hardware locally.
+        </p>
+
+        <ul>
+            <li>On-demand resources</li>
+            <li>Scalability</li>
+            <li>Cost efficiency</li>
+            <li>High availability</li>
+            <li>Internet-based access</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Cloud Computing Web Application</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

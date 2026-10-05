@@ -1,0 +1,173 @@
+/* General Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+
+nav {
+    background: #0d47a1;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+section {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+
+/* Hero */
+
+.hero {
+    background: white;
+    padding: 60px 10%;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 15px;
+}
+
+/* Button */
+
+button {
+    background: #1565c0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+/* Cards */
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    min-height: 200px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Messages */
+
+#message,
+#serviceMessage {
+    color: #1565c0;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* About */
+
+#about {
+    background: white;
+}
+
+#about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+#about ul {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+#about li {
+    margin: 8px;
+}
+
+/* Footer */
+
+footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile View */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
